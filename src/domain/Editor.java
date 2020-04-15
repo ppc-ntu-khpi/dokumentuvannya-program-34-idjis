@@ -19,7 +19,7 @@ public class Editor extends Artist {
         this.electronicEditing = electronicEditing;
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      * @param electronicEditing - значення поля True, False
      * @param skiils - навички, вміння
      */
@@ -28,7 +28,7 @@ public class Editor extends Artist {
         this.electronicEditing = electronicEditing;
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      * @param electronicEditing
      */
     public Editor(boolean electronicEditing) {
@@ -36,7 +36,7 @@ public class Editor extends Artist {
         this.electronicEditing = electronicEditing;
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      */
     public Editor() {
         super();

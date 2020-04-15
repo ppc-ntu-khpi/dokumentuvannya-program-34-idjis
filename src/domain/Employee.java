@@ -21,7 +21,7 @@ public class Employee {
 
    // private static int employeesCount = 0;
     /**
-     * Ініціалізатор та виклик методу
+     * Метод ініціалізації та виклик методу
      * @param name - значення для ініціалізації поля
      * @param jobTitle - значення для ініціалізації поля
      * @param level - значення для ініціалізації поля
@@ -43,7 +43,7 @@ public class Employee {
         this.dept = dept;
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      */
     public Employee() {
         ID = (int)(Math.random()*1000);

@@ -18,7 +18,7 @@ public class Artist extends Employee {
         this.skiils = skiils;
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      * @param skiils - навички, вміння
      */
     public Artist(String[] skiils) {
@@ -26,7 +26,7 @@ public class Artist extends Employee {
         this.skiils = skiils;
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      */
     public Artist() {
         super();

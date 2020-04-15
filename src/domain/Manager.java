@@ -6,7 +6,7 @@ package domain;
  */
 public class Manager extends Employee {
     /**
-     * Ініціалізатор
+     * Ініціалізатор аргументів
      * @param employees - значення для ініціалізації поля
      * @param name - значення для ініціалізації поля
      * @param jobTitle - значення для ініціалізації поля
@@ -26,7 +26,7 @@ public class Manager extends Employee {
         return super.toString()+"\nEmployees: "+getEmployees(); 
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      * @param employees - працівники 
      */
     public Manager(Employee[] employees) {
@@ -34,7 +34,7 @@ public class Manager extends Employee {
         this.employees = employees;
     }
     /**
-     * Ініціалізатор
+     * Метод ініціалізації
      */
     public Manager() {
         super();
