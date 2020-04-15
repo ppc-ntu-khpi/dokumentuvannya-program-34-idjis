@@ -1,6 +1,6 @@
 package domain;
 /**
- * Містить реалізацію матодів
+ * Містить реалізацію методів
  * @author IT-Service
  * @see Employee
  */
